@@ -4,7 +4,9 @@ Clone the repository and run the Main.py script
 > python Main.py
 
 In addition the test suite can be installed as a Python package via pip:
-pip install git+ssh://git@github.com:cryptoquantique/puf-randomness-test.git --upgrade
+
+pip install git+https://github.com/cryptoquantique/puf-randomness-te
+st.git --upgrade
 
 The modules used in Main can then be imported to your own application.
 
