@@ -12,5 +12,9 @@ spatial effects caused by a PUF array.
 pip install git+ssh://git@github.com:cryptoquantique/puf-randomness-test.git --upgrade
 
 
-Please see the README here for details of how to run the tests.
+## To run the tests
+Please see the documentation [here](src/randomness_test_suite/Paper_submission_code/README.md)
 
+
+## Acknowledgement
+The implementations of the tests found here are based on those found here https://github.com/stevenang/randomness_testsuite , with some minor modifications.
