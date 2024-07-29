@@ -8,13 +8,11 @@ between PUF and RNG output, i.e. the restriction on PUF output lengths vs RNG, a
 spatial effects caused by a PUF array.
 
 
-## To install
-pip install git+ssh://git@github.com:cryptoquantique/puf-randomness-test.git --upgrade
+## To install and run the tests
 
-
-## To run the tests
-Please see the documentation [here](src/randomness_test_suite/Paper_submission_code/README.md)
+Please see the documentation [here](src/README.md)
 
 
 ## Acknowledgement
+
 The implementations of the tests found here are based on those found here https://github.com/stevenang/randomness_testsuite , with some minor modifications.

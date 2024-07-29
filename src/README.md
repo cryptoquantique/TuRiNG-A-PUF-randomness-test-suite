@@ -1,5 +1,13 @@
 # PUF Testing Suite
 
+Clone the repository and run the Main.py script
+> python Main.py
+
+In addition the test suite can be installed as a Python package via pip:
+pip install git+ssh://git@github.com:cryptoquantique/puf-randomness-test.git --upgrade
+
+The modules used in Main can then be imported to your own application.
+
 ## Input Data Format
 The Main file runs the test suite on data saved as an numpy array in n x a x b format, where
 n = number of PUFs
@@ -28,7 +36,7 @@ Main also writes several objects that may be of interest to variables. For examp
 
 ## File Arrangement
 The files are arranged so that the top folder holds the files running the tests, as well as some formatting files that make the implementation compatible with the test files.
-The tests themselves are contained in the randomness_testsuite-master subfolder.
+The tests themselves are contained in the randomness_testsuite subfolder.
 
 ## Acknowledgement
 The implementations of the tests found here are based on those found here https://github.com/stevenang/randomness_testsuite , with some minor modifications.
