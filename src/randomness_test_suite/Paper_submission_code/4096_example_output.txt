@@ -1,0 +1,34 @@
+There were 1000 devices in the dataset 
+The p-value for tests was 0.01
+FHD Test: 985 devices out of 1000 passed 
+
+Randomness test pass counts (row order) at p-value 0.01: 
+Monobit Test: 988 of 1000, chi = 0.04903009680856367 
+Approximate Entropy: 989 of 1000, chi = 0.6993125708664081 
+Cumulative Sums: 989 of 1000, chi = 0.2368098152177318 
+Block Frequency: 986 of 1000, chi = 0.4807713143119623 
+Runs Test: 988 of 1000, chi = 0.8991707579982895 
+Longest Run of Ones: 990 of 1000, chi = 0.5422280239417125 
+DFT: 986 of 1000, chi = 0.394195382900628 
+Template Matching (fixed template): 983 of 1000, chi = 0.3907207096894158 
+Binary Matrix Rank Test: 989 of 1000, chi = 0.16998074885675502 
+Serial: 989 of 1000, chi = 0.9288565852283481 
+Serial Variant: 989 of 1000, chi = 0.784926882244637 
+
+Randomness test pass counts (column order) at p-value 0.01: 
+Approximate Entropy: 994 of 1000, chi = 0.7849268822446372 
+Cumulative Sums: 988 of 1000, chi = 0.15991006862766652 
+Block Frequency: 988 of 1000, chi = 0.25055820897829206 
+Runs Test: 989 of 1000, chi = 0.005932365924043212 
+Longest Run of Ones: 987 of 1000, chi = 0.6287904561747886 
+DFT: 986 of 1000, chi = 0.16904411493023286 
+Template Matching (fixed template): 988 of 1000, chi = 0.09657817385182599 
+Binary Matrix Rank Test: 995 of 1000, chi = 0.32520593104051193 
+Serial: 992 of 1000, chi = 0.4827068719844463 
+Serial Variant: 988 of 1000, chi = 0.973717809836578 
+
+Randomness test pass counts (block order) at p-value 0.01: 
+Block Frequency: 986 of 1000, chi = 0.4846458858263931 
+Cumulative Sums: 987 of 1000, chi = 0.6600123548951184 
+Binary Matrix Rank Test: 988 of 1000, chi = 0.032922821737753044 
+The p-values are written as arrays by Main for more information e.g. for running tests for uniformity
