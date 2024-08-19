@@ -1,4 +1,4 @@
-# PUF Testing Suite
+# TuRiNG PUF Randomness Test Suite
 
 Clone the repository and run the Main.py script
 
