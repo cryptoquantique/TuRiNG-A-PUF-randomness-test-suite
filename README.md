@@ -1,4 +1,4 @@
-# TuRiNG PUF Randomness Test Suite
+# TuRiNG: A PUF Randomness Test Suite
 
 This repository contains code implementing the Crypto Quantique [Randomness Test Suite for Physically Unclonable Functions](A_Randomness_Test_Suite_for_Physical_Unclonable_Functions%202.pdf).
 The tests defined are modifications of existing test suites for RNGs (e.g. NIST 800-22) that 
