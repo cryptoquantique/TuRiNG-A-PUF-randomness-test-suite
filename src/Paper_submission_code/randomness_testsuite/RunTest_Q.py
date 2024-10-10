@@ -1,9 +1,9 @@
 from math import fabs as fabs
 from math import floor as floor
 from math import sqrt as sqrt
+from numpy import zeros as zeros
 from scipy.special import erfc as erfc
 from scipy.special import gammaincc as gammaincc
-from scipy import zeros as zeros
 
 class RunTest_Q:
 
