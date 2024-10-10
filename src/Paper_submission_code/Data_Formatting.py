@@ -13,7 +13,7 @@ class Data_formatting:
         that looks like 110...010, e.g. of length 9 and losing all the middle data. This function appears to work now, but  it is plausible that it is buggy in some unknown way.
         """
         #turn array to string - keeps [] and spaces and commas
-        string_version = str(list(array))
+        string_version = str(array.tolist())
         #remove spaces
         spaces_removed = string_version.replace(" ", "")
         commas_removed = spaces_removed.replace(",", "")
