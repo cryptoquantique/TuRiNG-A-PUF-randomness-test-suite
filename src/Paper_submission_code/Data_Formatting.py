@@ -12,18 +12,7 @@ class Data_formatting:
         Notes: The function turns the array to a list then a string - if you call str(array), once the array is too long, you get an output
         that looks like 110...010, e.g. of length 9 and losing all the middle data. This function appears to work now, but  it is plausible that it is buggy in some unknown way.
         """
-        #turn array to string - keeps [] and spaces and commas
-        string_version = str(list(array))
-        #remove spaces
-        spaces_removed = string_version.replace(" ", "")
-        commas_removed = spaces_removed.replace(",", "")
-        #removed brackets
-        left_removed = commas_removed.lstrip("[")
-        right_removed = left_removed.rstrip("]")
-        #return right_removed
-        #there is an issue where long enough arrays get line breaks not removed by removing spaces. this removes those too.
-        spaces_re_removed = right_removed.replace("\n", "")
-        return spaces_re_removed
+        return ''.join(map(str, array))
     
     
     @staticmethod

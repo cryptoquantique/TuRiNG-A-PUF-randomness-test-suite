@@ -1,9 +1,9 @@
 from math import fabs as fabs
 from math import floor as floor
 from math import sqrt as sqrt
+from numpy import zeros as zeros
 from scipy.special import erfc as erfc
 from scipy.special import gammaincc as gammaincc
-from scipy import zeros as zeros
 
 class RunTest:
 
@@ -18,8 +18,8 @@ class RunTest:
         expected for a random sequence. In particular, this test determines whether the
         oscillation between such zeros and ones is too fast or too slow.
 
-        :param      binary_data:        The seuqnce of bit being tested
-        :param      verbose             True to display the debug messgae, False to turn off debug message
+        :param      binary_data:        The sequence of bit being tested
+        :param      verbose             True to display the debug message, False to turn off debug message
         :return:    (p_value, bool)     A tuple which contain the p_value and result of frequency_test(True or False)
         """
         one_count = 0
@@ -73,7 +73,7 @@ class RunTest:
         longest run of zeroes. Therefore, only a test for ones is necessary.
 
         :param      binary_data:        The sequence of bits being tested
-        :param      verbose             True to display the debug messgae, False to turn off debug message
+        :param      verbose             True to display the debug message, False to turn off debug message
         :return:    (p_value, bool)     A tuple which contain the p_value and result of frequency_test(True or False)
         """
         length_of_binary_data = len(binary_data)
