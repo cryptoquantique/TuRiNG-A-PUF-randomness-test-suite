@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+title: TuRiNG-A-PUF-randomness-test-suite
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Charlie
+    family-names: Grover
+  - given-names: Amit
+    family-names: Deo
+  - name: Crypto Quantique Limited
+    city: London
+    country: GB
+    post-code: SE1 0LH
+repository-code: >-
+  https://github.com/cryptoquantique/TuRiNG-A-PUF-randomness-test-suite
+keywords:
+  - PUF
+  - NIST
+  - randomness
+license: MIT
+commit: 254991a
+version: 0.0.1
